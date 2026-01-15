@@ -83,7 +83,12 @@ _ReSharper*/
 
 # Secrets (視專案需求)
 secrets.json
-appsettings.*.Local.json
-# 加入 .jsonc 支援
 secrets.jsonc
+
+# appsettings 配置（涵蓋 .json 與 .jsonc、含帶有環境或 Local 的變體）
+appsettings.json
+appsettings.jsonc
+appsettings.*.json
+appsettings.*.jsonc
+appsettings.*.Local.json
 appsettings.*.Local.jsonc
