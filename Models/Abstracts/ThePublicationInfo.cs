@@ -1,5 +1,3 @@
-using apiBooksDemoVer0.Models.Common.Currency;
-
 namespace apiBooksDemoVer0.Models.Abstracts;
 
 /// <summary>
