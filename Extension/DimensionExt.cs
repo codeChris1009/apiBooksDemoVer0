@@ -1,3 +1,5 @@
+using apiBooksDemoVer0.Models.Common.Book;
+
 namespace apiBooksDemoVer0.Extension;
 
 /// <summary>

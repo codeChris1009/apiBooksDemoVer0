@@ -1,4 +1,4 @@
-namespace apiBooksDemoVer0.Models.Common;
+namespace apiBooksDemoVer0.Models.Common.Book;
 
 /// <summary>
 ///     Represents the digital attributes of a book or publication,
