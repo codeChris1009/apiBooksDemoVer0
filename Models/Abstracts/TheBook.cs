@@ -10,7 +10,7 @@ public abstract class TheBook
     ///     International Standard Book Number (ISBN)
     ///     <br />國際標準書號 (ISBN)，用於全球唯一識別書籍
     /// </summary>
-    protected abstract string ISBN { get; }
+    protected abstract TheISBN ISBN { get; }
 
     /// <summary>
     ///     The unique identifier of a book,
@@ -66,6 +66,12 @@ public abstract class TheBook
     ///     <br />出版規格（出版社、出版日期、版本、格式等）
     /// </summary>
     protected abstract ThePublicationInfo PublishSpec { get; }
+
+    /// <summary>
+    ///     Book Categories, Genres, Subjects, and Tags .etc.
+    ///     <br /> 書籍相關分類 (類別、主題、標籤等)
+    /// </summary>
+    protected abstract IReadOnlyCollection<TheCategory> Categories { get; }
 
     #endregion
 }

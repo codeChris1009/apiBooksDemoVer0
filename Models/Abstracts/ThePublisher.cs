@@ -12,10 +12,10 @@ public abstract class ThePublisher
     protected abstract string Name { get; }
 
     /// <summary>
-    ///     Publisher Prefix Code
-    ///     <br />出版社前綴代碼, 從ISBN中提取
+    ///     Publisher ISBN Prefix
+    ///     <br />出版社代碼, 從ISBN中提取
     /// </summary>
-    protected abstract string PrefixISBN { get; }
+    protected abstract string PublisherIdISBN { get; }
 
     protected abstract TheNation Nation { get; }
 
@@ -23,6 +23,10 @@ public abstract class ThePublisher
 
     protected abstract string Description { get; }
 
+    /// <summary>
+    ///     Year the Publisher was Established
+    ///     <br />出版社成立年份
+    /// </summary>
     protected abstract int EstablishedYear { get; }
 
     protected abstract string LogoUrl { get; }

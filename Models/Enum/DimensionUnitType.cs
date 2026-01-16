@@ -1,5 +1,9 @@
 namespace apiBooksDemoVer0.Models.Enum;
 
+/// <summary>
+///     Dimension Unit Type Enumeration
+///     <br />尺寸單位類型列舉
+/// </summary>
 public enum DimensionUnitType
 {
     Unknown = 0,

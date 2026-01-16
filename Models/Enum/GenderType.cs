@@ -1,5 +1,9 @@
 namespace apiBooksDemoVer0.Models.Enum;
 
+/// <summary>
+///     Gender Type Enumeration, over Male and Female only,
+///     <br />性別類型列舉, 超越單純男性與女性
+/// </summary>
 public enum GenderType
 {
     Unknown = 0,

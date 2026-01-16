@@ -1,5 +1,8 @@
 namespace apiBooksDemoVer0.Models.Common.Nation;
 
+/// <summary>
+///     Abstract representation of a Nation entity
+/// </summary>
 public abstract class TheNation
 {
     protected abstract string AlphaCode { get; set; }
