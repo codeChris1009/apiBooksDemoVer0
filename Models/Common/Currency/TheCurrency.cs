@@ -1,5 +1,8 @@
-namespace apiBooksDemoVer0.Models.Common.ValueObjects;
+namespace apiBooksDemoVer0.Models.Common.Currency;
 
+/// <summary>
+///     Abstract representation of a Currency entity
+/// </summary>
 public abstract class TheCurrency
 {
     protected abstract string CodeISO { get; }

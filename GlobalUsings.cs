@@ -11,7 +11,6 @@ global using System.Linq;
 // Project-specific namespaces
 global using apiBooksDemoVer0.Models.Enum;
 global using apiBooksDemoVer0.Models.Common;
-global using apiBooksDemoVer0.Models.Common.ValueObjects;
 
 // Static global usings
 global using static apiBooksDemoVer0.GlobalConstants;

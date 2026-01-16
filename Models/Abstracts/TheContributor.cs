@@ -16,9 +16,9 @@ public abstract class TheContributor
 
     protected abstract string LastName { get; }
 
-    protected abstract string Gender { get; }
+    protected abstract GenderType Gender { get; }
 
-    protected abstract IList<string> RoleType { get; }
+    protected abstract IList<ContributorRoleType> RoleType { get; }
 
     protected abstract IList<TheSocialMedia> SocialMediaLinks { get; }
 

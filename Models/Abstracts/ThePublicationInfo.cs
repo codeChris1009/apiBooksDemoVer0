@@ -1,3 +1,5 @@
+using apiBooksDemoVer0.Models.Common.Currency;
+
 namespace apiBooksDemoVer0.Models.Abstracts;
 
 /// <summary>
@@ -7,16 +9,10 @@ namespace apiBooksDemoVer0.Models.Abstracts;
 public abstract class ThePublicationInfo
 {
     /// <summary>
-    ///     Publisher Prefix Code
-    ///     <br />出版社前綴代碼, 從ISBN中提取
+    ///     International Standard Book Number (ISBN)
+    ///     <br />國際標準書號 (ISBN)，用於全球唯一識別書籍
     /// </summary>
-    protected abstract string PublisherPrefixISBN { get; }
-
-    /// <summary>
-    ///     Unique Identifier linking to the Publisher
-    ///     <br />連結到出版商的唯一識別碼
-    /// </summary>
-    public abstract string PublisherIdCode { get; }
+    protected abstract TheISBN ISBN { get; }
 
     /// <summary>
     ///     Name of the Publisher
@@ -44,7 +40,7 @@ public abstract class ThePublicationInfo
     ///     Format Type of the Publication (e.g., Hardcover, Paperback, eBook)
     ///     <br />出版物的格式類型（例如，精裝本、平裝本、電子書）
     /// </summary>
-    public abstract string FormatType { get; }
+    public abstract BookFormatType FormatType { get; }
 
     /// <summary>
     ///     Cover Image URL of the Publication
@@ -53,6 +49,5 @@ public abstract class ThePublicationInfo
     protected abstract string CoverUrl { get; }
 
     public abstract BookDimensions Dimensions { get; }
-
-    public abstract string Region { get; }
+    public abstract BookDigitals Digitals { get; }
 }

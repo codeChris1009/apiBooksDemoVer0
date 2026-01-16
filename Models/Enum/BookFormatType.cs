@@ -1,5 +1,10 @@
 namespace apiBooksDemoVer0.Models.Enum;
 
+/// <summary>
+///     Book Format Type Enumeration,
+///     <br />after <see cref="Paperback" /> is digital products,
+///     <br />書籍格式類型列舉, <see cref="Paperback" /> 之後為數位產品
+/// </summary>
 public enum BookFormatType
 {
     Unknown = 0,

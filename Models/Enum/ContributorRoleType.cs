@@ -1,5 +1,10 @@
 namespace apiBooksDemoVer0.Models.Enum;
 
+/// <summary>
+///     Contributor Role Type Enumeration,
+///     <br />Use [<see cref="FlagsAttribute" />>] Attribute
+///     <br />貢獻者角色類型列舉, 使用 <see cref="FlagsAttribute" />> 屬性
+/// </summary>
 [Flags]
 public enum ContributorRoleType
 {
